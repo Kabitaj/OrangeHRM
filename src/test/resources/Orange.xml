@@ -1,0 +1,18 @@
+<suite name="orangeHRM">
+	<test name="OHrm_testing">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="base.Base"/>
+			<class name="smokeTesting.SmokeTest"/>
+			<class name="regressionTesting.RegressionTesting"/>
+		</classes>
+	</test>
+	<test name="OHrm_testing_ch1">
+		<parameter name="browser" value="edge"/>
+		<classes>
+			<class name="base.Base"/>
+			<class name="smokeTesting.SmokeTest"/>
+			<class name="regressionTesting.RegressionTesting"/>
+		</classes>
+	</test>
+</suite>
